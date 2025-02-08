@@ -244,7 +244,7 @@ export default function Home() {
   useEffect(() => {
     const handleBackButton = (e) => {
       e.preventDefault();  // Prevent the default back action
-      window.location.replace('/index.js'); // Go to index.js without adding to history
+      window.location.replace("/"); // Go to index.js without adding to history
     };
   
     // Push state to override the default history behavior
